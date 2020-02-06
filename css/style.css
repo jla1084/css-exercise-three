@@ -12,7 +12,7 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
-  background-color: #888;
+  background-color: #eee;
 }
 
 .arrow-left {
@@ -40,22 +40,23 @@ nav {
   padding-left: 15px;
   padding-bottom: 30px;
   padding-right: 15px;
-  border-bottom: solid #222;
+  border-bottom: .1em solid #555;
 }
 
 .location:hover {
-  background-color: #fff;
+  background-color: #bbb;
 }
 
 .content h1 {
-  font-size: 1.75em;
+  font-weight: bold;
+  font-size: 1.5em;
   line-height: 1.75em;
   position: static;
   width: auto;
 }
 
 .content h3 {
-  font-size: .8em;
+  font-size: 1em;
   position: static;
   width: auto;
   float: left;
@@ -64,7 +65,7 @@ nav {
 .arrow {
   font-size: .8em;
   position:relative;
-  padding-top: 10px;
+  padding-top: 5px;
   float: right;
   bottom: 25px;
   width: auto;
